@@ -1,6 +1,6 @@
 const assert = require('assert');
 const test = require('@nlib/test');
-const DateFormatter = require('..');
+const {DateFormatter} = require('..');
 
 test('@nlib/date', (test) => {
 
