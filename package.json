@@ -1,9 +1,9 @@
 {
-  "name": "@nlib/date",
+  "name": "@nlib/date-string",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Converts a date to a formatted string",
   "author": {
     "name": "Kei Ito",
@@ -14,7 +14,7 @@
   "engines": {
     "node": ">=6"
   },
-  "repository": "nlibjs/date",
+  "repository": "nlibjs/date-string",
   "main": "lib/index.js",
   "scripts": {
     "eslint": "eslint --max-warnings 0 'lib/**/*.js' 'test/**/*.js'",

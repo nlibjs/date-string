@@ -1,8 +1,8 @@
 const assert = require('assert');
 const test = require('@nlib/test');
-const {DateFormatter} = require('..');
+const DateString = require('..');
 
-test('@nlib/date', (test) => {
+test('@nlib/date-string', (test) => {
 
 	test('Year', (test) => {
 		const args = [2012, 3, 4, 5, 6, 7, 8];
@@ -13,7 +13,7 @@ test('@nlib/date', (test) => {
 		]
 		.forEach(([format, expected]) => {
 			test(`date('${format}', ${args.join(', ')}) → '${expected}'`, () => {
-				const date = new DateFormatter(format);
+				const date = new DateString(format);
 				const actual = date(...args);
 				assert.equal(actual, expected);
 			});
@@ -30,7 +30,7 @@ test('@nlib/date', (test) => {
 		]
 		.forEach(([format, expected]) => {
 			test(`date('${format}', ${args.join(', ')}) → '${expected}'`, () => {
-				const date = new DateFormatter(format);
+				const date = new DateString(format);
 				const actual = date(...args);
 				assert.equal(actual, expected);
 			});
@@ -45,7 +45,7 @@ test('@nlib/date', (test) => {
 		]
 		.forEach(([format, expected]) => {
 			test(`date('${format}', ${args.join(', ')}) → '${expected}'`, () => {
-				const date = new DateFormatter(format);
+				const date = new DateString(format);
 				const actual = date(...args);
 				assert.equal(actual, expected);
 			});
@@ -60,7 +60,7 @@ test('@nlib/date', (test) => {
 		]
 		.forEach(([format, expected]) => {
 			test(`date('${format}', ${args.join(', ')}) → '${expected}'`, () => {
-				const date = new DateFormatter(format);
+				const date = new DateString(format);
 				const actual = date(...args);
 				assert.equal(actual, expected);
 			});
@@ -75,7 +75,7 @@ test('@nlib/date', (test) => {
 		]
 		.forEach(([format, expected]) => {
 			test(`date('${format}', ${args.join(', ')}) → '${expected}'`, () => {
-				const date = new DateFormatter(format);
+				const date = new DateString(format);
 				const actual = date(...args);
 				assert.equal(actual, expected);
 			});
@@ -90,7 +90,7 @@ test('@nlib/date', (test) => {
 		]
 		.forEach(([format, expected]) => {
 			test(`date('${format}', ${args.join(', ')}) → '${expected}'`, () => {
-				const date = new DateFormatter(format);
+				const date = new DateString(format);
 				const actual = date(...args);
 				assert.equal(actual, expected);
 			});
@@ -105,7 +105,7 @@ test('@nlib/date', (test) => {
 		]
 		.forEach(([format, expected]) => {
 			test(`date('${format}', ${args.join(', ')}) → '${expected}'`, () => {
-				const date = new DateFormatter(format);
+				const date = new DateString(format);
 				const actual = date(...args);
 				assert.equal(actual, expected);
 			});
