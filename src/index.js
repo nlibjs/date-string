@@ -1,4 +1,4 @@
-const TemplateString = require('@nlib/template-string');
+const {TemplateString} = require('@nlib/template-string');
 
 module.exports = class DateString extends TemplateString {
 
