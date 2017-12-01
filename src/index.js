@@ -1,6 +1,6 @@
 const TemplateString = require('@nlib/template-string');
 
-class DateString extends TemplateString {
+module.exports = class DateString extends TemplateString {
 
 	static get format() {
 		return '[YYYY]-[MM]-[DD] [hh]:[mm]:[ss]';
@@ -105,6 +105,4 @@ class DateString extends TemplateString {
 		};
 	}
 
-}
-
-module.exports = DateString;
+};

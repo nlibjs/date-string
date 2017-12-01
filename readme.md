@@ -1,7 +1,7 @@
 # @nlib/date-string
 
 [![Build Status](https://travis-ci.org/nlibjs/date-string.svg?branch=master)](https://travis-ci.org/nlibjs/date-string)
-[![Build status](https://ci.appveyor.com/api/projects/status/p365it1utdiew2fm/branch/master?svg=true)](https://ci.appveyor.com/project/kei-ito/date-string/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/github/nlibjs/date-string?branch=mater&svg=true)](https://ci.appveyor.com/project/kei-ito/date-string/branch/master)
 [![codecov](https://codecov.io/gh/nlibjs/date-string/branch/master/graph/badge.svg)](https://codecov.io/gh/nlibjs/date-string)
 [![dependencies Status](https://david-dm.org/nlibjs/date-string/status.svg)](https://david-dm.org/nlibjs/date-string)
 [![devDependencies Status](https://david-dm.org/nlibjs/date-string/dev-status.svg)](https://david-dm.org/nlibjs/date-string?type=dev)
