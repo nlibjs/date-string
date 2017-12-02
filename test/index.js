@@ -31,4 +31,4 @@ const args = [2012, 3, 4, 5, 6, 7, 8];
 	assert.equal(actual, expected);
 });
 
-console.log('done');
+console.log('passed: DateString');
